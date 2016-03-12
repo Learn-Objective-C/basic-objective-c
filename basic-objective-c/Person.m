@@ -9,5 +9,7 @@
 #import "Person.h"
 
 @implementation Person
-
+-(void) test{
+	isSecure = true;
+}
 @end
