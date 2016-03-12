@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "Person.h"
 @interface ViewController ()
 
 @end
@@ -16,23 +16,11 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	NSLog(@"Name: %@", self.name);
+	Person *person1   = [[Person alloc]init];
+	person1.firstName = @"Duc";
+	[person1 setLastName:@"Nguyen"];
 	
-	self.name = @"Jack";
 	
-	NSLog(@"Name: %@", self.name);
-	
-	_name = @"Peter";
-	
-	NSLog(@"Name: %@", _name);
-	NSLog(@"Name: %@", self.name);
-	
-	[self setName:@"Alex"];
-	
-	NSLog(@"Name: %@", [self name]);
-	NSLog(@"Name: %@", self.name);
-	
-
 }
 
 - (void)didReceiveMemoryWarning {

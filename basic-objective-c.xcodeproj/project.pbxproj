@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A315B521C94653D0087F5E5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A315B511C94653D0087F5E5 /* Person.m */; };
 		8A8DE9131C942D2200683A2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DE9121C942D2200683A2C /* main.m */; };
 		8A8DE9161C942D2200683A2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DE9151C942D2200683A2C /* AppDelegate.m */; };
 		8A8DE9191C942D2200683A2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DE9181C942D2200683A2C /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A315B501C94653D0087F5E5 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8A315B511C94653D0087F5E5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		8A8DE90E1C942D2200683A2C /* basic-objective-c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "basic-objective-c.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A8DE9121C942D2200683A2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A8DE9141C942D2200683A2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				8A8DE9151C942D2200683A2C /* AppDelegate.m */,
 				8A8DE9171C942D2200683A2C /* ViewController.h */,
 				8A8DE9181C942D2200683A2C /* ViewController.m */,
+				8A315B501C94653D0087F5E5 /* Person.h */,
+				8A315B511C94653D0087F5E5 /* Person.m */,
 				8A8DE91A1C942D2200683A2C /* Main.storyboard */,
 				8A8DE91D1C942D2200683A2C /* Assets.xcassets */,
 				8A8DE91F1C942D2200683A2C /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			files = (
 				8A8DE9191C942D2200683A2C /* ViewController.m in Sources */,
 				8A8DE9161C942D2200683A2C /* AppDelegate.m in Sources */,
+				8A315B521C94653D0087F5E5 /* Person.m in Sources */,
 				8A8DE9131C942D2200683A2C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +513,7 @@
 				8A8DE93D1C942D2200683A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A8DE93E1C942D2200683A2C /* Build configuration list for PBXNativeTarget "basic-objective-cTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				8A8DE9401C942D2200683A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A8DE9411C942D2200683A2C /* Build configuration list for PBXNativeTarget "basic-objective-cUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				8A8DE9431C942D2200683A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
