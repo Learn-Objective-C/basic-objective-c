@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "Person.h"
+#import "Vehicle.h"
+
 @interface ViewController ()
 
 @end
@@ -16,10 +17,14 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	Person *person1   = [[Person alloc]init];
-	person1.firstName = @"Duc";
-	[person1 setLastName:@"Nguyen"];
+	Vehicle *car = [[Vehicle alloc ]init];
+	car.odometer = -100;
 	
+	NSLog(@"Odometer: %lu",car.odometer);
+	
+	
+	car.model = @"Honda Civic";
+	NSLog(@"I drive a %@",car.model);
 	
 }
 

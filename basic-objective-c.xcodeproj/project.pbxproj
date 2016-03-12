@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A315B521C94653D0087F5E5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A315B511C94653D0087F5E5 /* Person.m */; };
+		8A315B551C94692F0087F5E5 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A315B541C94692F0087F5E5 /* Vehicle.m */; };
 		8A8DE9131C942D2200683A2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DE9121C942D2200683A2C /* main.m */; };
 		8A8DE9161C942D2200683A2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DE9151C942D2200683A2C /* AppDelegate.m */; };
 		8A8DE9191C942D2200683A2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DE9181C942D2200683A2C /* ViewController.m */; };
@@ -36,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8A315B501C94653D0087F5E5 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		8A315B511C94653D0087F5E5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		8A315B531C94692F0087F5E5 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		8A315B541C94692F0087F5E5 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
 		8A8DE90E1C942D2200683A2C /* basic-objective-c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "basic-objective-c.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A8DE9121C942D2200683A2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A8DE9141C942D2200683A2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,16 +104,11 @@
 		8A8DE9101C942D2200683A2C /* basic-objective-c */ = {
 			isa = PBXGroup;
 			children = (
-				8A8DE9141C942D2200683A2C /* AppDelegate.h */,
-				8A8DE9151C942D2200683A2C /* AppDelegate.m */,
+				8A8DE91A1C942D2200683A2C /* Main.storyboard */,
 				8A8DE9171C942D2200683A2C /* ViewController.h */,
 				8A8DE9181C942D2200683A2C /* ViewController.m */,
-				8A315B501C94653D0087F5E5 /* Person.h */,
-				8A315B511C94653D0087F5E5 /* Person.m */,
-				8A8DE91A1C942D2200683A2C /* Main.storyboard */,
-				8A8DE91D1C942D2200683A2C /* Assets.xcassets */,
-				8A8DE91F1C942D2200683A2C /* LaunchScreen.storyboard */,
-				8A8DE9221C942D2200683A2C /* Info.plist */,
+				8A315B531C94692F0087F5E5 /* Vehicle.h */,
+				8A315B541C94692F0087F5E5 /* Vehicle.m */,
 				8A8DE9111C942D2200683A2C /* Supporting Files */,
 			);
 			path = "basic-objective-c";
@@ -122,6 +117,11 @@
 		8A8DE9111C942D2200683A2C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8A8DE9141C942D2200683A2C /* AppDelegate.h */,
+				8A8DE9151C942D2200683A2C /* AppDelegate.m */,
+				8A8DE91D1C942D2200683A2C /* Assets.xcassets */,
+				8A8DE91F1C942D2200683A2C /* LaunchScreen.storyboard */,
+				8A8DE9221C942D2200683A2C /* Info.plist */,
 				8A8DE9121C942D2200683A2C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -276,9 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A315B551C94692F0087F5E5 /* Vehicle.m in Sources */,
 				8A8DE9191C942D2200683A2C /* ViewController.m in Sources */,
 				8A8DE9161C942D2200683A2C /* AppDelegate.m in Sources */,
-				8A315B521C94653D0087F5E5 /* Person.m in Sources */,
 				8A8DE9131C942D2200683A2C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
